@@ -1,12 +1,11 @@
 //////////////////////////////
 ///          Init          ///
 //////////////////////////////
-import { BareMuxConnection } from "https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux@2.1.8/dist/index.mjs";
 
 //////////////////////////////
 ///         Options        ///
 //////////////////////////////
-const connection = new BareMuxConnection("/celestial/bareworker.js");
+ //i hope whoever made this dies
 
 let wispURL;
 let transportURL;
@@ -18,13 +17,7 @@ export let framesElement;
 export let currentFrame;
 export const addressInput = document.getElementById("address");
 
-
-
-
-const transportOptions = {
-	epoxy: "https://cdn.jsdelivr.net/npm/@mercuryworkshop/epoxy-transport@2.1.28/dist/index.mjs",
-	libcurl: "https://cdn.jsdelivr.net/npm/@mercuryworkshop/libcurl-transport@1.5.2/dist/index.mjs"
-};
+const connection = ""
 
 //////////////////////////////
 ///           SW           ///
@@ -53,13 +46,13 @@ async function registerSW() {
 await import("./violet/violet.bundle.js");
 await import("./violet/violet.config.js");
 
-await import("./scram/scramjet.all.js");
+await import("./scram/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js");
 const { ScramjetController } = window.$scramjetLoadController();
 const scramjet = new ScramjetController({
 	files: {
-		wasm: "./scram/scramjet.wasm.wasm",
-		all: "./scram/scramjet.all.js",
-		sync: "./scram/scramjet.sync.js",
+		wasm: "./scram/wasm.wasm",
+		all: "./scram/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js",
+		sync: "./scram/embed-partnerscripts.ACSHASH1ce21d38f84f2986b3a781f27298cfca.min.js",
 	},
 	flags: {
 		rewriterLogs: false,
@@ -71,6 +64,7 @@ const scramjet = new ScramjetController({
 			naiiveRewriter: true,
 		},
 	},
+	prefix: "/celestial/scramjet/"
 });
 scramjet.init();
 
@@ -103,27 +97,6 @@ export function makeURL(input, template = "https://search.brave.com/search?q=%s"
 	return template.replace("%s", encodeURIComponent(input));
 }
 
-/**
- * Updates BareMux connection with current transport and wisp URLs.
- * @returns {Promise<void>}
- */
-async function updateBareMux() {
-	if (transportURL != null && wispURL != null) {
-		console.log(`lethal.js: setting transport to ${transportURL} and wisp to ${wispURL}`);
-		await connection.setTransport(transportURL, [{ wisp: wispURL }]);
-	}
-}
-
-/**
- * Sets the transport URL and updates BareMux.
- * @param {string} transport - Transport name or URL.
- * @returns {Promise<void>}
- */
-export async function setTransport(transport) {
-	console.log(`lethal.js: setting transport to ${transport}`);
-	transportURL = transportOptions[transport] || transport;
-	await updateBareMux();
-}
 
 /**
  * Gets the current transport URL.
@@ -131,17 +104,6 @@ export async function setTransport(transport) {
  */
 export function getTransport() {
 	return transportURL;
-}
-
-/**
- * Sets the wisp URL and updates BareMux.
- * @param {string} wisp - Wisp URL.
- * @returns {Promise<void>}
- */
-export async function setWisp(wisp) {
-	console.log(`lethal.js: setting wisp to ${wisp}`);
-	wispURL = wisp;
-	await updateBareMux();
 }
 
 /**

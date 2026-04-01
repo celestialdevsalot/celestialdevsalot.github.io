@@ -1,9 +1,9 @@
 importScripts(
-  ",/violet/violet.bundle.js",
+  "./violet/violet.bundle.js",
 )
 importScripts("./violet/violet.config.js")
 importScripts("./violet/violet.sw.js")
-importScripts("./scram/scramjet.all.js");
+importScripts("./scram/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js");
 importScripts("/celestial/assets/js/ww/workerware.js");
 importScripts("https://raw.githubusercontent.com/titaniumnetwork-dev/Pyrus/refs/heads/main/public/marketplace/adblock/index.js");
 

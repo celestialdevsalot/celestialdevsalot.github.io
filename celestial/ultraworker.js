@@ -3,9 +3,7 @@ importScripts(
 )
 importScripts("./violet/violet.config.js")
 importScripts(__uv$config.sw)
-importScripts("./scram/scramjet.all.js");
-
-
+importScripts("./scram/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js");
 
 if (navigator.userAgent.includes("Firefox")) {
   Object.defineProperty(globalThis, "crossOriginIsolated", {

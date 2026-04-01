@@ -1,13 +1,8 @@
 import {
-	setWisp,
 	makeURL,
 	getProxied,
-	setTransport,
 	setProxy,
 } from "/celestial/lithium.mjs"
-
-
-
 
 // new tab
 // homepage
