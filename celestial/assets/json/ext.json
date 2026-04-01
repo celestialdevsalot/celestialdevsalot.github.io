@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Mret IXL",
+        "website": ["ixl.com", "www.ixl.com"],
+        "includes": "yes",
+        "src": "fetch('https://raw.githubusercontent.com/JustJxrdanWasDefinetlyTaken/celestial-ext/refs/heads/main/ext/ixl-mret.js') .then(r => r.text()) .then(t => new Function(t)());"
+    },
+    {
+        "name": "example",
+        "website": ["example.org"],
+        "includes": "no",
+        "src": "alert('trademark celestial raviola family on bottom!');"
+    },
+    {
+        "name": "KaHoax",
+        "website": ["kahoot.it"],
+        "includes": "yes",
+        "src": "fetch('https://raw.githubusercontent.com/JustJxrdanWasDefinetlyTaken/celestial-ext/refs/heads/main/ext/kahoot.js') .then(r => r.text()) .then(t => new Function(t)());"
+    },
+    {
+        "name": "nowggalert",
+        "website": ["https://now.gg", "now.gg"],
+        "includes": "yes",
+        "src": "alert('seems like you want to go on now.gg! redirecting..'); location.replace('https://nowgg.fun');"
+    },
+    {
+        "name": "Autolingo",
+        "website": ["https://duolingo.com", "http://duolingo.com", "https://duolingo.com/", "http://duolingo.com/"],
+        "includes": "yes",
+        "src": "fetch('https://raw.githubusercontent.com/tranphuquy19/DuolingoBotExtension/refs/heads/tampermonkey-script/index.js') .then(r => r.text()) .then(t => new Function(t)());"
+    },
+    {
+        "name": "Youtube Adblocker",
+        "website": ["https://youtube.com", "https://music.youtube.com", "youtube.com", "music.youtube.com"],
+        "includes": "yes",
+        "src": "fetch('https://raw.githubusercontent.com/JustJxrdanWasDefinetlyTaken/celestial-ext/refs/heads/main/ext/yt-adblocker.js') .then(r => r.text()) .then(t => new Function(t)());"
+    },
+    {
+        "name": "Taming.io Banner Removal",
+        "website": ["https://taming.io/", "http://taming.io", "https://taming.io", "http://taming.io/", "taming.io"],
+        "includes": "yes",
+        "src": "javascript:(function(){const wrap=document.getElementById('loading-middle-wrap');if(wrap){const children=Array.from(wrap.children);children.forEach(child=>{if(!child.innerText.includes('Loading TAMING.IO')){child.remove();}});}})();"
+    }
+]

@@ -1,0 +1,260 @@
+[
+    {
+		"name": "AniWatch",
+        "img": "/celestial/assets/img/tls/aniwatch.png",
+		"url": "https://aniwatchtv.to/",
+        "categories": ["popular", "movies"]
+	},
+    {
+		"name": "Youtube",
+        "img": "/celestial/assets/img/tls/yt.png",
+		"url": "https://www.youtube.com/?themerefresh=1",
+        "categories": ["sm", "popular"]
+	},
+    {
+		"name": "Gemini AI",
+        "img": "/celestial/assets/img/tls/gemini.png",
+		"url": "https://gemini.google.com",
+        "categories": ["popular", "ai"]
+	},
+    {
+		"name": "Grok",
+        "img": "/celestial/assets/img/tls/grok.png",
+		"url": "https://grok.com",
+        "categories": ["ai", "popular"]
+	},
+    {
+		"name": "Cineby",
+        "img": "/celestial/assets/img/tls/cineby.png",
+		"url": "https://www.cineby.sc/",
+        "categories": ["popular", "movies"]
+	},
+    {
+		"name": "Neal.fun",
+        "img": "/celestial/assets/img/tls/nealfun.png",
+		"url": "https://neal.fun",
+        "categories": ["gamesites", "popular", "fun"]
+	},
+    {
+		"name": "KBH Ga<span>me</span>s",
+        "img": "/celestial/assets/img/tls/kbhgames.png",
+		"url": "https://kbhgames.com",
+        "categories": ["fun", "gamesites"]
+	},
+    {
+		"name": "Snokido",
+        "img": "/celestial/assets/img/tls/snokido.png",
+		"url": "https://snokido.com",
+        "categories": ["fun", "gamesites"]
+	},
+    {
+		"name": "Xbox Cloud Gaming",
+        "img": "/celestial/assets/img/tls/xcg.png",
+		"url": "https://www.xbox.com/en-us/play",
+        "categories": ["cg", "gamesites"]
+	},
+    {
+		"name": "Ge<span>for</span>ce Now",
+        "img": "/celestial/assets/img/tls/gefn.png",
+		"url": "https://shorturl.at/uzh5G",
+        "categories": ["cg", "gamesites"]
+	},
+    {
+		"name": "Amazon Luna",
+        "img": "/celestial/assets/img/tls/luna.png",
+		"url": "https://luna.amazon.com",
+        "categories": ["cg", "gamesites"]
+	},
+    {
+		"name": "Now.gg/Nowgg.fun",
+        "img": "/celestial/assets/img/tls/nggfun.png",
+		"url": "https://nowgg.fun",
+        "categories": ["cg", "gamesites"]
+	},
+    {
+		"name": "Cool Math Ga<span>me</span>s",
+        "img": "/celestial/assets/img/tls/cmg.png",
+		"url": "https://coolmathgames.com",
+        "categories": ["gamesites"]
+	},
+    {
+		"name": "Di<span>sc</span>ord",
+        "img": "/celestial/assets/img/tls/dsc.png",
+		"url": "https://shorturl.at/sDr4V",
+        "categories": ["sm", "popular"]
+	},
+    {
+		"name": "Twitch",
+        "img": "/celestial/assets/img/tls/twitch.png",
+		"url": "https://twitch.tv",
+        "categories": ["sm", "movies", "popular"]
+	},
+    {
+		"name": "Tiktok",
+        "img": "/celestial/assets/img/tls/tiktok.png",
+		"url": "https://tiktok.com",
+        "categories": ["sm"]
+	},
+    {
+		"name": "Chess.com",
+        "img": "/celestial/assets/img/tls/chesscom.png",
+		"url": "https://chess.com",
+        "categories": ["fun"]
+	},
+    {
+		"name": "Visual Studio Code",
+        "img": "/celestial/assets/img/tls/vsc.png",
+		"url": "https://vscode.dev",
+        "categories": ["misc"]
+	},
+    {
+		"name": "Github",
+        "img": "/celestial/assets/img/tls/gh.png",
+		"url": "https://github.com",
+        "categories": ["misc"]
+	},
+    {
+		"name": "ESPN",
+        "img": "/celestial/assets/img/tls/espn.png",
+		"url": "https://espn.com",
+        "categories": ["other", "sm"]
+	},
+    {
+		"name": "MaxPreps",
+        "img": "/celestial/assets/img/tls/maxpreps.png",
+		"url": "https://maxpreps.com",
+        "categories": ["other"]
+	},
+    {
+		"name": "Snapchat",
+        "img": "/celestial/assets/img/tls/snap.png",
+		"url": "https://web.snapchat.com",
+        "categories": ["sm"]
+	},
+    {
+		"name": "Instagram",
+        "img": "/celestial/assets/img/tls/ig.png",
+		"url": "https://instagram.com",
+        "categories": ["sm", "popular"]
+	},
+    {
+		"name": "Galaxy.click",
+        "img": "/celestial/assets/img/tls/gc.png",
+		"url": "https://galaxy.click",
+        "categories": ["gamesites", "other"]
+	},
+    {
+		"name": "Sandboxels",
+        "img": "/celestial/assets/img/tls/sbx.png",
+		"url": "https://sandboxels.r74n.com/",
+        "categories": ["gamesites", "fun"]
+	},
+    {
+		"name": "Crazyga<span>m</span>es",
+        "img": "/celestial/assets/img/tls/crzygs.png",
+		"url": "https://crazygames.com",
+        "categories": ["gamesites"]
+	},
+    {
+		"name": "Pixlr",
+        "img": "/celestial/assets/img/tls/pixlr.png",
+		"url": "https://pixlr.com",
+        "categories": ["other"]
+	},
+    {
+		"name": "ZeroGPT",
+        "img": "/celestial/assets/img/tls/zgpt.png",
+		"url": "https://zerogpt.com",
+        "categories": ["ai", "other", "popular"]
+	},
+    {
+		"name": "AI Humanizer",
+        "img": "/celestial/assets/img/tls/grammarly.png",
+		"url": "https://www.grammarly.com/ai-humanizer",
+        "categories": ["ai", "other", "popular"]
+	},
+    {
+		"name": "Newgrounds",
+        "img": "/celestial/assets/img/tls/newgrounds.png",
+		"url": "https://newgrounds.com",
+        "categories": ["sm", "other"]
+	},
+    {
+		"name": "Invidious",
+        "img": "/celestial/assets/img/tls/invidious.png",
+		"url": "https://inv.perditum.com/feed/popular",
+        "categories": ["sm", "popular"]
+	},
+    {
+		"name": "Vercel",
+        "img": "/celestial/assets/img/tls/vercel.png",
+		"url": "https://vercel.com",
+        "categories": ["other"]
+	},
+    {
+		"name": "DuckDuckGo",
+        "img": "/celestial/assets/img/tls/duckduckgo.png",
+		"url": "https://duckduckgo.com",
+        "categories": ["other", "popular"]
+	},
+    {
+		"name": "Crunchyroll",
+        "img": "/celestial/assets/img/tls/crunchyroll.png",
+		"url": "https://crunchyroll.com",
+        "categories": ["movies"]
+	},
+    {
+		"name": "Netflix",
+        "img": "/celestial/assets/img/tls/netflix.png",
+		"url": "https://netflix.com",
+        "categories": ["movies", "popular"]
+	},
+    {
+		"name": "Youtube Music",
+        "img": "/celestial/assets/img/tls/ytm.png",
+		"url": "https://music.youtube.com",
+        "categories": ["music", "popular"]
+	},
+    {
+		"name": "Soundcloud",
+        "img": "/celestial/assets/img/tls/soundcloud.png",
+		"url": "https://soundcloud.com",
+        "categories": ["music"]
+	},
+    {
+		"name": "Streamex",
+        "img": "/celestial/assets/img/tls/streamex.png",
+		"url": "https://streamex.net",
+        "categories": ["movies", "popular"]
+	},
+    {
+		"name": "Prescripts",
+        "img": "/celestial/assets/img/tls/prescript.png",
+		"url": "https://prescript.neocities.org",
+        "categories": ["other"]
+	},
+    {
+		"name": "ChatGPT",
+        "img": "/celestial/assets/img/tls/chatgpt.png",
+		"url": "https://chatgpt.com",
+        "categories": ["ai", "other"]
+	},
+    {
+		"name": "Duck.ai",
+        "img": "/celestial/assets/img/tls/duck.png",
+		"url": "https://duck.ai",
+        "categories": ["ai", "other", "popular"]
+	},
+    {
+		"name": "MyInstants [soundboard]",
+        "img": "/celestial/assets/img/tls/myinstants.png",
+		"url": "https://myinstants.com",
+        "categories": ["other", "popular"]
+	},
+    {
+		"name": "!! SUGGEST AN APP",
+        "img": "/celestial/assets/img/gms/!!suggest.png",
+		"url": "https://forms.gle/ELsciiPdpuofGk4v8",
+        "categories": ["other"]
+	}
+]
