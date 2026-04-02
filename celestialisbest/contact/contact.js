@@ -149,22 +149,22 @@ body[theme="eww"] .gridthing {
 <div class="gradientthing" align="center">
 <h1>media menu</h1>
 <div class="row">
-<div class="menu-box" data-url="/tab.html?autofill=https://app.apponfly.com/trial">
+<div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://app.apponfly.com/trial">
 <img src="/celestialisbest/assets/img/icns/comp.png" />
 <h2>access virtual machine</h2>
 <p>access our free virtual machine.</p>
 </div>
-<div class="menu-box" data-url="/tab.html?autofill=https://music.youtube.com">
+<div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://music.youtube.com">
 <img src="/celestialisbest/assets/img/icns/music.png" />
 <h2>listen to music</h2>
 <p>access our free virtual machine.</p>
 </div>
-<div class="menu-box" data-url="/tab.html?autofill=https://www.cineby.sc/">
+<div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://www.cineby.sc/">
 <img src="/celestialisbest/assets/img/icns/pop.png" />
 <h2>watch movies</h2>
 <p>access movies, for free, no charge.</p>
 </div>
-<div class="menu-box" data-url="/tab.html?autofill=https://duck.ai">
+<div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://duck.ai">
 <img src="/celestialisbest/assets/img/icns/ai.png" />
 <h2>access AI</h2>
 <p>access AI with multiple models, no charge.</p>
