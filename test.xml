@@ -1,72 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
   <ModulePrefs
-    title="Drew's Learning Academy | Edison, NJ"
-    description="DLA, short for Drew's Learning Academy, is a new upcoming academy in Edison, New Jersey."
-    author="Drew's Learning Academy" />
+    title="Blank HTML Form"
+    author="Your Name"
+    description="A simple blank HTML form inside an XML gadget." />
 
   <Content type="html"><![CDATA[
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Drew's Learning Academy | Edison, NJ</title>
-
-  <link rel="shortcut icon" type="image/png" href="/celestialisbest/assets/img/logo.png" />
-  <link rel="stylesheet" href="/celestialisbest/assets/css/home.css" />
-  <script src="/celestialisbest/mossad/index.js"></script>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-
-  <style>
-    .updlog {
-      position:absolute;
-      top:10px;
-      left:10px;
-      color:var(--color);
-      cursor:pointer;
-      width:40px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
 </head>
-
-<body theme="default">
-  <div class="gradientthing">
-    <div class="main">
-      <div class="bg-match">
-        <h1>Drew's Learning Academy</h1>
-
-        <form id="form">
-          <input class="url" id="address" placeholder="search for online lessons" />
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <script type="module">
-    import { makeURL, setProxy, getProxied } from "./lithium.mjs";
-
-    setProxy(localStorage.getItem("pr0xy") || "scram");
-
-    let search =
-      localStorage.getItem("search-engine") ||
-      "https://search.brave.com/search?q=%s";
-
-    async function autofill(url) {
-      const urlToLoad = makeURL(url, search);
-      const proxiedUrl = await getProxied(urlToLoad);
-      location.href = proxiedUrl;
-    }
-
-    const form = document.getElementById("form");
-    const input = document.getElementById("address");
-
-    form?.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const proxiedUrl = await getProxied(makeURL(input.value, search));
-      location.href = proxiedUrl;
-    });
-  </script>
+<body>
+fuh naw sir
 </body>
 </html>
   ]]></Content>
