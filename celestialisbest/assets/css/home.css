@@ -21,6 +21,7 @@ body {
   color: var(--color);
   font-family: "Inter", sans-serif;
   margin: 0;
+  overflow:hidden;
 }
 
 .main {
@@ -94,6 +95,19 @@ input.url:focus {
   position: absolute;
   gap: 5px;
   display: flex;
+}
+
+.footerv2 {
+  bottom: -4px;
+  left: 10px;
+  position: absolute;
+  gap: 5px;
+  display: flex;
+}
+
+.footerv2 p {
+  color:rgb(189, 189, 189);
+  font-size:13px;
 }
 
 .footer a {
@@ -286,4 +300,8 @@ body[theme="light"] .card img {
   font-size: 40px !important;
   margin: 0 0 18px 0;
   white-space: nowrap;
+}
+
+.wrap {
+    flex-direction: row;
 }
