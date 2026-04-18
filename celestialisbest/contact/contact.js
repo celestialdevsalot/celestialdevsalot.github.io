@@ -8,7 +8,7 @@ document.write(`
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="/celestialisbest/assets/img/logo.png" />
+  <link rel="shortcut icon" type="image/png" href="/celestialisbest/assets/img/logo-blackbg.png" />
   <link rel="stylesheet" href="/celestialisbest/assets/css/home.css" />
   <link rel="stylesheet" href="/celestialisbest/assets/css/xtra.css" />
   <style>
@@ -154,10 +154,10 @@ body[theme="eww"] .gridthing {
 <h2>access virtual machine</h2>
 <p>access our free virtual machine.</p>
 </div>
-<div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://music.youtube.com">
+<div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://musicthing.space/music/">
 <img src="/celestialisbest/assets/img/icns/music.png" />
 <h2>listen to music</h2>
-<p>access our free virtual machine.</p>
+<p>listen to your favorite songs.</p>
 </div>
 <div class="menu-box" data-url="/celestialisbest/tab.html?autofill=https://www.cineby.sc/">
 <img src="/celestialisbest/assets/img/icns/pop.png" />

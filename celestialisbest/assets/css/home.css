@@ -96,19 +96,6 @@ input.url:focus {
   display: flex;
 }
 
-.footerv2 {
-  bottom: -4px;
-  left: 10px;
-  position: absolute;
-  gap: 5px;
-  display: flex;
-}
-
-.footerv2 p {
-  color:rgb(189, 189, 189);
-  font-size:13px;
-}
-
 .footer a {
   color: var(--color);
   transition: 0.1s;
@@ -248,6 +235,13 @@ body[theme="saywallahibro"] .gradientthing {
       rgb(235, 204, 0) 100%);
 }
 
+body[theme="custom"] .gradientthing {
+  background-image: var(--background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .updlog {
   position: absolute;
   top: 10px;
@@ -301,6 +295,15 @@ body[theme="light"] .card img {
   white-space: nowrap;
 }
 
-.wrap {
-    flex-direction: row;
+.footerv2 {
+  bottom: -4px;
+  left: 10px;
+  position: absolute;
+  gap: 5px;
+  display: flex;
+}
+
+.footerv2 p {
+  color:rgb(189, 189, 189);
+  font-size:13px;
 }

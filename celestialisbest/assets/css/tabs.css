@@ -23,17 +23,13 @@ body {
   overflow-y:hidden;
 }
 
-.load {
-    animation: loader 0.5s ease-in-out forwards;
+.load > *:not(.settings-bg) {
+    animation: loader 0.69s ease-in-out forwards;
 }
 
 @keyframes loader {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .hidden {
@@ -71,8 +67,8 @@ nav {
   background: none;
   cursor: pointer;
   user-select: none;
-  min-width: 140px;
-  max-width: 260px;
+  min-width: 148px;
+  max-width: 148px;
   white-space: nowrap;
   border-radius: 10px 10px 0px 0px;
   border-top: 1px solid var(--border);
@@ -91,7 +87,7 @@ nav {
   width: 20px;
   height: 20px;
   margin-right: 6px;
-  border-radius: 2px;
+  border-radius: 4px;
   background: none;
 }
 
@@ -354,7 +350,7 @@ section {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   background: rgba(0, 0, 0, 0.2);
-  z-index: 999;
+  z-index: 999999;
   display: none;
 }
 
@@ -370,7 +366,7 @@ section {
 
 .settings {
   z-index: 999999999999;
-  background: var(--pallet-hover);
+  background: var(--settings);
   width: 50vw;
   padding: 10px;
   border: 1px solid var(--border);
@@ -429,11 +425,11 @@ select {
   justify-content: center;
 }
 
-#appear, #browsing {
+#appear {
   overflow:hidden;
 }
 
-#ext, #misc {
+#ext, #misc, #browsing {
   overflow-y: auto;
   overflow-x: hidden;
   flex:1;
@@ -529,7 +525,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--border);
+  background: white;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -541,13 +537,13 @@ a {
   height: 16px;
   left: 2px;
   top: 2px;
-  background: var(--pallet2);
+  background: black;
   border-radius: 50%;
   transition: 0.3s;
 }
 
 input:checked + .slider {
-  background: var(--color);
+  background: gray;
 }
 
 input:checked + .slider::before {
@@ -568,7 +564,7 @@ button {
     cursor:pointer;
 }
 
-#titleInput, #faviconInput{
+#titleInput, #faviconInput, #panicUrl, #panicKey {
     width: 150px;
     padding: 5px 5px;
     border-radius: 8px;
@@ -623,3 +619,4 @@ button {
 .wrap {
     flex-direction: row;
 }
+

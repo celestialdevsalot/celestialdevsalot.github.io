@@ -7,14 +7,22 @@ import { currentFrame } from "/celestialisbest/lithium.mjs";
 // fetch json
 const exts = await fetch("/celestialisbest/assets/json/ext.json").then(r => r.json());
 
-currentFrame.addEventListener("load", () => {
-  const url = currentFrame.dataset.displayUrl;
-  exts.forEach(e => {
-    const sites = [].concat(e.website);
-    if (e.includes === "yes" ? sites.some(s => url.includes(s)) : sites.includes(new URL(url).hostname)) { // i only gotta check if includes is yes so it can be included in every page
-      const s = currentFrame.contentDocument.createElement("script");
-      s.textContent = e.src;
-      currentFrame.contentDocument.body.prepend(s);
-    }
+if (currentFrame) {
+  currentFrame.addEventListener("load", () => {
+    const url = currentFrame.dataset.displayUrl;
+    const doc = currentFrame.contentDocument;
+
+    if (!doc || !url) return;
+
+    exts.forEach(e => {
+      const sites = [].concat(e.website);
+      if (e.includes === "yes" ? sites.some(s => url.includes(s)) : sites.includes(new URL(url).hostname)) {
+        const s = doc.createElement("script");
+        s.textContent = e.src;
+        (doc.body || doc.documentElement).prepend(s);
+      }
+    });
   });
-});
+} else {
+  console.error("currentFrame is undefined. Check the import path.");
+}
